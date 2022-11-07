@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Personal_Portfolio/static/css/main.fabbda85.css",
+    "main.js": "/Personal_Portfolio/static/js/main.f9f27e81.js",
+    "static/media/utku.png": "/Personal_Portfolio/static/media/utku.b1da2b649f92035c0fc1.png",
+    "static/media/airbnb.png": "/Personal_Portfolio/static/media/airbnb.cc706b1bf2f9beaf02d2.png",
+    "static/media/burger.png": "/Personal_Portfolio/static/media/burger.10bb7b6047a444ca9559.png",
+    "static/media/FoodOrder.png": "/Personal_Portfolio/static/media/FoodOrder.7e3bd835b022b8ce148d.png",
+    "static/media/Medium1.png": "/Personal_Portfolio/static/media/Medium1.43350a9fdbda93d62c97.png",
+    "static/media/hiking.png": "/Personal_Portfolio/static/media/hiking.28ee335c360d2a863859.png",
+    "static/media/ecommerce.jpg": "/Personal_Portfolio/static/media/ecommerce.86f835d44ccefb07cfa7.jpg",
+    "static/media/resume.pdf": "/Personal_Portfolio/static/media/resume.2eec96a7aecd8efb7230.pdf",
+    "static/media/cycle.png": "/Personal_Portfolio/static/media/cycle.4e24b1e53c65b41b8661.png",
+    "static/media/gym.png": "/Personal_Portfolio/static/media/gym.60a2a4f24cab4fa24f69.png",
+    "static/media/disney.jpg": "/Personal_Portfolio/static/media/disney.8dc15de3bd7544c971a7.jpg",
+    "static/media/LinkedinPage.png": "/Personal_Portfolio/static/media/LinkedinPage.3d2589e558a094dbfc00.png",
+    "static/media/basketball.png": "/Personal_Portfolio/static/media/basketball.4b713a66815c5cdc10b7.png",
+    "static/media/gym.jpg": "/Personal_Portfolio/static/media/gym.b6d7642c3f063d31ba23.jpg",
+    "static/media/glassesimoji.png": "/Personal_Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/art.jpg": "/Personal_Portfolio/static/media/art.135c863d5d29772641fd.jpg",
+    "static/media/thumbup.png": "/Personal_Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Personal_Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Personal_Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Personal_Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Personal_Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Personal_Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Personal_Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Personal_Portfolio/index.html",
+    "main.fabbda85.css.map": "/Personal_Portfolio/static/css/main.fabbda85.css.map",
+    "main.f9f27e81.js.map": "/Personal_Portfolio/static/js/main.f9f27e81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fabbda85.css",
+    "static/js/main.f9f27e81.js"
+  ]
+}
