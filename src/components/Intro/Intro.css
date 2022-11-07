@@ -1,13 +1,12 @@
 .Intro {
   display: flex;
-  height: 77vh;
-  margin-top: 6rem;
+  margin-top: calc(var(--header-height) + 1rem);
+  height: max-content;
 }
-
 /* left side styling */
 .i-left {
-  display: flex;
   position: relative;
+  display: flex;
   flex: 1;
   flex-direction: column;
   gap: 2rem;
@@ -52,6 +51,7 @@
 .i-right {
   flex: 1;
   position: relative;
+  height: max-content;
 }
 .i-right > * {
   position: absolute;
@@ -68,8 +68,10 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  /* utku */
+  width: 450px;
+  height: auto;
+  top: -170px;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -93,13 +95,27 @@
   filter: blur(72px);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .Intro {
     flex-direction: column;
-    gap: 7rem;
-    height: 64rem;
+    gap: 3rem;
+    padding: 0;
+    margin-top: 0;
+    height: 800px;
   }
+  .i-left {
+    gap: 5px;
+    flex: 0.5;
+  }
+  .i-icons {
+    margin-top: 0;
+  }
+  .i-right > :nth-child(3) {
+    width: 400px;
+  }
+}
 
+@media screen and (max-width: 480px) {
   .i-right {
     transform: scale(0.8);
     left: -3rem;
@@ -107,8 +123,11 @@
   .i-right .blur {
     display: none;
   }
-  .floating-div:nth-of-type(1){
+  .floating-div:nth-of-type(1) {
     /* display: none; */
-    top: -7rem !important;;
+    top: -7rem !important;
+  }
+  .i-icons {
+    margin-top: 0;
   }
 }

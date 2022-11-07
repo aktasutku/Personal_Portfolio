@@ -1,56 +1,62 @@
-.contact-form{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 80vh;
-    margin-top: 4rem;
-      /* scroll */
-  padding-top: 3rem;
+.contact-form {
+  padding: 0 3rem;
+  display: flex;
+  height: 80vh;
+  /* scroll */
 }
 
-.c-right{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    flex: 1;
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
 }
 
-.c-right>form
-{
-    display: flex;
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.message_sent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 4rem !important;
+  max-width: 20rem;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+.success {
+  border: 3px solid #53a653 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .contact-form {
+    padding: 0;
     flex-direction: column;
     gap: 2rem;
-    align-items: center;
-    
+    height: 33rem;
+  }
+  .c-right .user {
+    width: 16rem;
+  }
 }
-
-.c-right .user{
-    width: 20rem;
-    height: 2rem;
-    padding: 0.3em;
-    outline: none;
-    border: 2px solid var(--orange);
-    border-radius: 8px;
-    font-size: 16px;   
-}
-
-textarea{
-    height: 4rem!important;
-}
-
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
-}
-
-@media screen and (max-width: 480px) {
-    .contact-form{
-        padding: 0;
-        flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
-    }
-    .c-right .user{
-        width: 16rem;
-    }
-
-}   

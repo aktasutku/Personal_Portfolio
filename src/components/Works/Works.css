@@ -1,9 +1,7 @@
 .works {
-  padding: 0 3rem 0 3rem;
+  padding: 0 3rem;
   display: flex;
-  height: 90vh;
-  margin-top: 4rem;
-
+  height: 80vh;
   /* scroll */
   align-items: center;
 }
@@ -26,7 +24,7 @@
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 1rem;
 }
 .s-button {
@@ -91,6 +89,7 @@
 
 .w-secCircle > img {
   transform: scale(0.6);
+  border-radius: 100%;
 }
 
 .w-backCircle {
@@ -112,25 +111,44 @@
   top: 8rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1200px) {
   .works {
     flex-direction: column;
-    height: 55rem;
     padding: 0;
-    gap: 5rem;
+    gap: 2rem;
+    margin: 0;
+    height: max-content;
   }
-
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
-    transform: scale(0.7);
+    justify-content: start;
+    transform: scale(0.9);
   }
-  .w-mainCircle{
+  .w-mainCircle {
     position: static;
   }
-  .w-backCircle{
-    left: 8rem!important;
+  .w-backCircle {
+    left: 8rem !important;
   }
+  .s-button {
+    margin-top: 1rem;
+  }
+}
 
+@media screen and (max-width: 900px) {
+  .w-right {
+    transform: scale(0.8);
+  }
+}
+@media screen and (max-width: 580px) {
+  .w-right {
+    transform: scale(0.7);
+  }
+  .awesome > :nth-child(1) {
+    font-size: 2rem;
+  }
+  .awesome > :nth-child(2) {
+    font-size: 2rem;
+  }
 }

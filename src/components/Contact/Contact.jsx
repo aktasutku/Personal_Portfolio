@@ -2,26 +2,36 @@ import React, { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import { themeContext } from "../../Context";
+
+import Success from "@iconscout/react-unicons/icons/uil-check-circle";
+
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   const form = useRef();
-  const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_2mu5xtl",
-        "template_m5udu2c",
+        "service_k3nrkr9",
+        "template_vnz5ezo",
         form.current,
-        "VLwg1ltOWvnCYAiK_"
+        "XnQKBqtNKLxGBqdml"
       )
       .then(
         (result) => {
           console.log(result.text);
           setDone(true);
-          form.reset();
+          setMessage("");
+          setEmail("");
+          setName("");
         },
         (error) => {
           console.log(error.text);
@@ -35,7 +45,7 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Get in Touch</span>
           <span>Contact me</span>
           <div
             className="blur s-blur1"
@@ -46,11 +56,35 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          {done && (
+            <span style={{ color: "green" }} className="message_sent">
+              <Success size={"1.5rem"} /> Message Sent: Thanks for Contacting me
+            </span>
+          )}
+          <input
+            type="text"
+            name="user_name"
+            className={`user ${done && "success"}`}
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+          <input
+            type="email"
+            name="user_email"
+            className={`user ${done && "success"}`}
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <textarea
+            name="message"
+            className={`user ${done && "success"}`}
+            placeholder="Message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+          <input type="submit" value="Send" className="button" />
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
