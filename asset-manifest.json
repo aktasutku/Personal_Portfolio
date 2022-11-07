@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_Portfolio/static/css/main.fabbda85.css",
-    "main.js": "/Personal_Portfolio/static/js/main.f9f27e81.js",
+    "main.js": "/Personal_Portfolio/static/js/main.651cae81.js",
     "static/media/utku.png": "/Personal_Portfolio/static/media/utku.b1da2b649f92035c0fc1.png",
     "static/media/airbnb.png": "/Personal_Portfolio/static/media/airbnb.cc706b1bf2f9beaf02d2.png",
     "static/media/burger.png": "/Personal_Portfolio/static/media/burger.10bb7b6047a444ca9559.png",
@@ -9,7 +9,7 @@
     "static/media/Medium1.png": "/Personal_Portfolio/static/media/Medium1.43350a9fdbda93d62c97.png",
     "static/media/hiking.png": "/Personal_Portfolio/static/media/hiking.28ee335c360d2a863859.png",
     "static/media/ecommerce.jpg": "/Personal_Portfolio/static/media/ecommerce.86f835d44ccefb07cfa7.jpg",
-    "static/media/resume.pdf": "/Personal_Portfolio/static/media/resume.2eec96a7aecd8efb7230.pdf",
+    "static/media/resume.pdf": "/Personal_Portfolio/static/media/resume.97feecc7f6b879d7366e.pdf",
     "static/media/cycle.png": "/Personal_Portfolio/static/media/cycle.4e24b1e53c65b41b8661.png",
     "static/media/gym.png": "/Personal_Portfolio/static/media/gym.60a2a4f24cab4fa24f69.png",
     "static/media/disney.jpg": "/Personal_Portfolio/static/media/disney.8dc15de3bd7544c971a7.jpg",
@@ -27,10 +27,10 @@
     "static/media/glasses.png": "/Personal_Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Personal_Portfolio/index.html",
     "main.fabbda85.css.map": "/Personal_Portfolio/static/css/main.fabbda85.css.map",
-    "main.f9f27e81.js.map": "/Personal_Portfolio/static/js/main.f9f27e81.js.map"
+    "main.651cae81.js.map": "/Personal_Portfolio/static/js/main.651cae81.js.map"
   },
   "entrypoints": [
     "static/css/main.fabbda85.css",
-    "static/js/main.f9f27e81.js"
+    "static/js/main.651cae81.js"
   ]
 }
