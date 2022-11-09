@@ -68,10 +68,11 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  /* utku */
+  /* utku img*/
   width: 450px;
   height: auto;
   top: -170px;
+  left: 60px;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
